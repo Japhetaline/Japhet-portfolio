@@ -61,3 +61,18 @@ function moveSlide(step) {
 
 // Auto-slide every 3 seconds
 setInterval(() => moveSlide(1), 3000);
+
+
+//Image Carousel
+let slideIndex = 0;
+  const slideContainer = document.querySelector(".portfolio-carousel-slide");
+  const slides = document.querySelectorAll(".portfolio-carousel-slide a");
+
+  function moveSlide(direction) {
+    slideIndex += direction;
+    if (slideIndex < 0) slideIndex = slides.length - 1;
+    if (slideIndex >= slides.length) slideIndex = 0;
+
+    const slideWidth = slides[0].clientWidth;
+    slideContainer.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
+  }

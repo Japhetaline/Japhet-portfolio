@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="icon" href="/img/Japhet3.jpg" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
 </head>
 <body class="main-content">
     <header class="section sec1 header active" id="home">
@@ -178,6 +179,21 @@
             <div class="portfolios">
                 <div class="portfolio-item">
                     <div class="image">
+                        <img src="./img/TheLeneade.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>The Leaneade</h3>
+                         <br>
+                        <div class="icons">
+                            <a href="https://theleneade.com/" target="_blank" class="icon">
+                                <i class="fa fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="image">
                         <img src="./img/Lekkileisure.png" alt="">
                     </div>
                     <div class="hover-items">
@@ -280,19 +296,48 @@
             <div class="portfolio-carousel">
                 <h3 class="portfolio-carousel-title">Graphics Design Showcase</h3>
                 <div class="portfolio-carousel-container">
-                    <div class="portfolio-carousel-slide">
-                        <img src="./img/Awangbahun Festival frame no pix.jpg" alt="Design 1">
-                        <img src="./img/FebBeachCamp.png" alt="Design 2">
+                  <div class="portfolio-carousel-slide">
+                      <a href="./img/SholaAllysonCover.png" data-lightbox="portfolio" data-title="SholaAllysonCover">
+                        <img src="./img/SholaAllysonCover.png" alt="Design 1">
+                      </a>
+
+                      <a href="./img/silent_movienight.png" data-lightbox="portfolio" data-title="silent_movienight">
+                        <img src="./img/silent_movienight.png" alt="Design 2">
+                      </a>
+
+                      <a href="./img/POOL PARTY FLYER 1.jpg" data-lightbox="portfolio" data-title="POOL PARTY FLYER">
                         <img src="./img/POOL PARTY FLYER 1.jpg" alt="Design 3">
-                        <img src="./img/HappyBirthdayMOE.png" alt="Design 4">
-                        <img src="./img/L3Eventads1.png" alt="Design 5">
-                        <img src="./img/Nami'scouture & Fabrics.png" alt="Design 5">
-                        <img src="./img/Namuba.png" alt="Design 5">
-                    </div>
+                      </a>
+
+                      <a href="./img/Nami'scouture & Fabrics.png" data-lightbox="portfolio" data-title="Nami'scouture & Fabrics">
+                        <img src="./img/Nami'scouture & Fabrics.png" alt="Design 4">
+                      </a>
+
+                      <a href="./img/FebBeachCamp.png" data-lightbox="portfolio" data-title="FebBeachCamp">
+                        <img src="./img/FebBeachCamp.png" alt="Design 5">
+                      </a>
+
+                      <a href="./img/HappyBirthdayMOE.png" data-lightbox="portfolio" data-title="HappyBirthdayMOE">
+                        <img src="./img/HappyBirthdayMOE.png" alt="Design 6">
+                      </a>
+
+                      <a href="./img/L3Eventads1.png" data-lightbox="portfolio" data-title="L3Eventads">
+                        <img src="./img/L3Eventads1.png" alt="Design 7">
+                      </a>
+                
+                      <a href="./img/Namuba.png" data-lightbox="portfolio" data-title="Namuba">
+                        <img src="./img/Namuba.png" alt="Design 8">
+                      </a>
+
+                      <a href="./img/Awangbahun Festival frame no pix.jpg" data-lightbox="portfolio" data-title="Awangbahun Festival">
+                        <img src="./img/Awangbahun Festival frame no pix.jpg" alt="Design 9">
+                      </a>
+                  </div>
                 </div>
                 <button class="portfolio-carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
                 <button class="portfolio-carousel-next" onclick="moveSlide(1)">&#10095;</button>
-            </div>
+              </div>
+              
             
         </section>
       <!--  <section class="section sec4 blogs" id="blogs">
@@ -452,4 +497,6 @@
 
     <script src="app.js"></script>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox.min.js"></script>
 </html>
