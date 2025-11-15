@@ -13,11 +13,11 @@ const ThemeToggle = () => {
       aria-label="Toggle theme"
     >
       <motion.i
-        key={isDark ? 'sun' : 'moon'}
+        key={isDark ? 'moon' : 'sun'}
         initial={{ rotate: -180, opacity: 0 }}
         animate={{ rotate: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className={`fas ${isDark ? 'fa-sun' : 'fa-moon'} text-xl`}
+        className={`fas ${isDark ? 'fa-moon' : 'fa-sun'} text-xl`}
       />
     </motion.button>
   );
