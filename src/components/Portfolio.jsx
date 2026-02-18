@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { projects } from '../data/projects';
 import ProjectCard from './ProjectCard';
-/*import GraphicsCarousel from './GraphicsCarousel';*/
 
 const Portfolio = () => {
   const containerVariants = {
@@ -48,8 +47,6 @@ const Portfolio = () => {
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
         </motion.div>
-
-        
       </div>
     </section>
   );

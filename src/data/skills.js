@@ -1,19 +1,19 @@
 export const skills = [
   {
     name: "Javascript",
-    level: 85,
+    level: 98,
   },
   {
     name: "React",
-    level: 80,
+    level: 97,
   },
   {
     name: "Next.js",
-    level: 75,
+    level: 85,
   },
   {
     name: "Node",
-    level: 70,
+    level: 80,
   },
   {
     name: "Canva",
@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     name: "WordPress",
-    level: 75,
+    level: 95,
   },
 ];
 

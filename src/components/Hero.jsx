@@ -53,7 +53,7 @@ const Hero = () => {
                 className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl border-4 border-secondary/20 dark:border-secondary-light/20"
               >
                 <img
-                  src="/img/Japhet3.jpg"
+                  src="/img/japhet_profile.webp"
                   alt="Japhet"
                 />
               </motion.div>
