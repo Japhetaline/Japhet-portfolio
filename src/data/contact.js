@@ -10,7 +10,7 @@ export const contactInfo = {
     github: "https://github.com/Japhetaline",
     whatsapp: "https://wa.me/2348146360709",
   },
+  // TODO: Replace with direct PDF link
   cvUrl: "https://drive.google.com/drive/folders/1YndR6BCJqJmleHpMJhZmMktZiUlM6aNd",
   formAction: "https://formspree.io/f/moqrgkkp",
 };
-

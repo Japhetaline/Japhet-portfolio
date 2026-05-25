@@ -31,7 +31,19 @@ const ProjectCard = ({ project, index }) => {
           className="absolute inset-0 bg-gradient-to-t from-primary/95 to-transparent flex items-end justify-center p-6"
         >
           <div className="text-center">
-            <h3 className="text-xl font-bold text-white mb-4">{project.title}</h3>
+            <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+            {project.techStack && project.techStack.length > 0 && (
+              <div className="flex flex-wrap gap-1.5 justify-center mb-4">
+                {project.techStack.map((tech, i) => (
+                  <span
+                    key={i}
+                    className="px-2 py-0.5 bg-white/10 backdrop-blur-sm rounded-full text-xs text-white/90 border border-white/20"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
             <div className="flex gap-4 justify-center">
               {project.liveUrl && (
                 <motion.a

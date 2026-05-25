@@ -1,11 +1,22 @@
 export const projects = [
   {
+    id: 0,
+    title: "AI Eye Disease Detector",
+    image: "img/EyeDiseasePredictor.png",
+    // TODO: Replace with actual project link when ready
+    liveUrl: "https://huggingface.co/spaces/Japhetaline/eye-disease-detector",
+    githubUrl: null,
+    description: "An AI-powered model that detects early signs of eye diseases through image analysis. Built using Python, TensorFlow, and OpenCV. Trained on medical image datasets and deployed as a functional computer vision solution.",
+    techStack: ["Python", "TensorFlow", "OpenCV", "Computer Vision", "Machine Learning"],
+  },
+  {
     id: 1,
     title: "The Leaneade",
     image: "/img/TheLeneade.png",
     liveUrl: "https://theleneade.com/",
     githubUrl: null,
     description: "A modern website for The Leaneade",
+    techStack: ["React", "CSS", "Responsive Design"],
   },
   {
     id: 2,
@@ -14,6 +25,7 @@ export const projects = [
     liveUrl: "https://lekkileisure.com/",
     githubUrl: null,
     description: "Leisure and hospitality website",
+    techStack: ["React", "JavaScript", "CSS"],
   },
   {
     id: 3,
@@ -22,14 +34,16 @@ export const projects = [
     liveUrl: "https://philbethproperties.com/",
     githubUrl: null,
     description: "Real estate property website",
+    techStack: ["WordPress", "Custom Theme", "CSS"],
   },
   {
     id: 4,
-    title: "Winnyz",
+    title: "Winnyz Interiors",
     image: "/img/Winnyz-Interiors.png",
     liveUrl: "https://winnyzinteriors.com/",
     githubUrl: null,
     description: "A modern website for winnyz interiors",
+    techStack: ["WordPress", "WooCommerce"],
   },
   {
     id: 5,
@@ -38,6 +52,7 @@ export const projects = [
     liveUrl: "https://awhangbahun.vercel.app/",
     githubUrl: null,
     description: "Cultural festival website",
+    techStack: ["React", "JavaScript", "Countdown Timer"],
   },
   {
     id: 6,
@@ -46,6 +61,7 @@ export const projects = [
     liveUrl: "https://high-canvas.vercel.app/",
     githubUrl: null,
     description: "Creative canvas platform",
+    techStack: ["React", "E-Commerce", "JavaScript"],
   },
   {
     id: 7,
@@ -54,6 +70,7 @@ export const projects = [
     liveUrl: "https://smafoundation.vercel.app/",
     githubUrl: null,
     description: "sma foundation website",
+    techStack: ["React", "Node.js", "MongoDB"],
   },
   {
     id: 8,
@@ -62,5 +79,6 @@ export const projects = [
     liveUrl: "https://cureplus.vercel.app/",
     githubUrl: null,
     description: "Healthcare platform",
+    techStack: ["React", "Healthcare UI", "JavaScript"],
   },
 ];

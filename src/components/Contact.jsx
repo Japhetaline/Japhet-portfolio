@@ -140,24 +140,6 @@ const Contact = () => {
                 className="flex items-start gap-4"
               >
                 <div className="w-12 h-12 bg-secondary/20 dark:bg-secondary-light/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <i className="fas fa-phone text-secondary dark:text-secondary-light"></i>
-                </div>
-                <div>
-                  <p className="text-white/60 dark:text-gray-500 text-sm mb-1">Mobile Number:</p>
-                  <a
-                    href={`tel:${contactInfo.mobile}`}
-                    className="text-white dark:text-gray-800 font-medium hover:text-secondary dark:hover:text-secondary-light transition-colors"
-                  >
-                    {contactInfo.mobile}
-                  </a>
-                </div>
-              </motion.div>
-
-              <motion.div
-                whileHover={{ x: 5 }}
-                className="flex items-start gap-4"
-              >
-                <div className="w-12 h-12 bg-secondary/20 dark:bg-secondary-light/20 rounded-xl flex items-center justify-center flex-shrink-0">
                   <i className="fas fa-globe-africa text-secondary dark:text-secondary-light"></i>
                 </div>
                 <div>
@@ -271,7 +253,7 @@ const Contact = () => {
               <p>
                 Coded by <span className="text-secondary dark:text-secondary-light font-semibold">Japhetaline</span>
               </p>
-              <p className="mt-2">Copyright © 2025 | All rights reserved</p>
+              <p className="mt-2">Copyright © 2026 | All rights reserved</p>
             </div>
           </motion.div>
         </motion.div>

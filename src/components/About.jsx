@@ -110,7 +110,7 @@ const About = () => {
             My <span className="text-secondary dark:text-secondary-light">Skills</span>
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="flex flex-wrap justify-center gap-3 mt-8">
             {skills.map((skill, index) => (
               <SkillBar key={index} skill={skill} index={index} />
             ))}

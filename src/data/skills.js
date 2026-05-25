@@ -1,27 +1,25 @@
 export const skills = [
-  {
-    name: "Javascript",
-    level: 98,
-  },
-  {
-    name: "React",
-    level: 97,
-  },
-  {
-    name: "Next.js",
-    level: 85,
-  },
-  {
-    name: "Node",
-    level: 80,
-  },
-  {
-    name: "Canva",
-    level: 90,
-  },
-  {
-    name: "WordPress",
-    level: 95,
-  },
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "TypeScript",
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "WordPress",
+  "Python",
+  "REST APIs",
+  "Git",
+  "MongoDB",
+  "Computer Vision",
+  "Machine Learning",
+  "Figma",
+  "Canva",
+  "Framer",
+  "No-Code Development",
+  "AI Automation",
+  "Graphic Design",
+  "Video Editing",
+  "Brand Design",
 ];
-
